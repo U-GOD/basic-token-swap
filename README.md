@@ -20,7 +20,7 @@ A mintable ERC-20 token representing the first asset.
 - Inherits from OpenZeppelin ERC20 and Ownable  
 - Constructor:
   - Name: `"TokenA"`  
-  - Symbol: `"TKA"`  
+  - Symbol: `"TKNA"`  
   - Initial supply: Minted to the deployer
 
 ### 2️⃣ TokenB.sol  
@@ -29,7 +29,7 @@ A mintable ERC-20 token representing the second asset.
 - Inherits from OpenZeppelin ERC20 and Ownable  
 - Constructor:
   - Name: `"TokenB"`  
-  - Symbol: `"TKB"`  
+  - Symbol: `"TKNB"`  
   - Initial supply: Minted to the deployer
 
 ### 3️⃣ BasicTokenSwap.sol  
@@ -51,14 +51,14 @@ The swap contract.
 
    Constructor:  
    `name: "TokenA"`  
-   `symbol: "TKA"`  
+   `symbol: "TKNA"`  
    `initialSupply: any starting amount (e.g., 1,000,000 ether units)`
 
 2. **Deploy TokenB.sol**
 
    Constructor:  
    `name: "TokenB"`  
-   `symbol: "TKB"`  
+   `symbol: "TKNB"`  
    `initialSupply: any starting amount`
 
 3. **Deploy BasicTokenSwap.sol**
